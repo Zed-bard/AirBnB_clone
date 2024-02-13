@@ -13,9 +13,8 @@ from datetime import datetime
 
 
 class BaseModel:
-
-"""Illustrates the BaseModel of the HBnB endeavor """
-def __init__(self, *args, **kwargs):
+    """Illustrates the BaseModel of the HBnB endeavor """
+    def __init__(self, *args, **kwargs):
         """Initialize a new BaseModel.
 
         Args:
